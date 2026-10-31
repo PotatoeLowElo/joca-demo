@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Neuradna demonstracijska spletna stran za Frizerski studio Joca na Ptuju. Ilustrativna predstavitev storitev in kontaktnih podatkov.">
+  <meta name="theme-color" content="#f5f1e9">
+  <title>Frizerski studio Joca, Ptuj — neuradna demonstracija</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#vsebina">Preskoči na vsebino</a>
+  <div class="demo-bar">NEURADNA DEMONSTRACIJA <span>•</span> Stran ni povezana s podjetjem. Fotografije so ilustrativne.</div>
+  <header class="site-header">
+    <a class="brand" href="#domov" aria-label="Joca — domov">joca<span>FRIZERSKI STUDIO · PTUJ</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" aria-label="Odpri navigacijo"><span></span><span></span></button>
+    <nav id="navigation" aria-label="Glavna navigacija">
+      <a href="#domov" class="active" aria-current="location">Domov</a><a href="#o-salonu">O salonu</a><a href="#storitve">Storitve</a><a href="#galerija">Galerija</a><a href="#kontakt">Kontakt</a>
+      <a class="nav-call" href="tel:+38627712030">Pokličite nas <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="vsebina" tabindex="-1">
+    <section class="hero" id="domov" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> MAJHNA SPREMEMBA. NOV OBČUTEK.</p>
+        <h1 id="hero-title">Vaši lasje.<br>Vaš značaj.<br><em>Vaša zgodba.</em></h1>
+        <p class="intro">Svežina, ki jo začutite. Stil, ki vas izraža.<br>Odkrijte idejo svojega naslednjega videza.</p>
+        <a class="button" href="tel:+38627712030">Naročite se po telefonu <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="#storitve">Raziščite storitve <span aria-hidden="true">↓</span></a>
+        <div class="hero-location"><span aria-hidden="true">⌖</span> OSOJNIKOVA CESTA 22, PTUJ</div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1400&q=85" alt="Ilustrativni portret ženske z dolgimi, valovitimi lasmi" fetchpriority="high" width="1400" height="1800">
+        <span class="image-label">ILUSTRATIVNA FOTOGRAFIJA</span>
+        <div class="photo-note">Lepota je v tem,<br><em>da ste vi.</em><span>JOCA / PTUJ</span></div>
+      </div>
+      <a href="#o-salonu" class="scroll-note">POIŠČITE NAVDIH <span aria-hidden="true">↓</span></a>
+    </section>
+    <div class="statement" aria-hidden="true"><span>OSEBNI STIL</span><i>✦</i><span>NARAVNA ELEGANCA</span><i>✦</i><span>NOVA SVEŽINA</span><i>✦</i><span>VAŠ TRENUTEK</span></div>
+    <section class="about section-wrap" id="o-salonu" aria-labelledby="about-title">
+      <div class="about-image reveal"><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=85" loading="lazy" alt="Ilustrativni prizor oblikovanja las s krtačo" width="900" height="1100"><span class="image-label">ILUSTRATIVNA FOTOGRAFIJA</span><div class="image-index">01 / TRENUTEK ZASE</div></div>
+      <div class="about-copy reveal"><p class="eyebrow">O SALONU</p><h2 id="about-title">Dober stil se začne<br>z <em>dobrim občutkom.</em></h2><p>Frizerski studio Joca najdete na Osojnikovi cesti 22 na Ptuju. Ta demonstracijska predstavitev raziskuje idejo prostora, kjer so v ospredju lasje, osebni slog in čas zase.</p><p>Od subtilne osvežitve do opazne spremembe — poiščite svoj navdih in se po telefonu pozanimajte o možnostih ter razpoložljivih terminih.</p><a class="underlined" href="#kontakt">Najdite nas na Ptuju <span aria-hidden="true">↗</span></a><div class="small-note">Predstavitveno besedilo je pripravljeno za demonstracijo in ni uradni opis podjetja.</div></div>
+    </section>
+    <section class="services section-wrap" id="storitve" aria-labelledby="services-title">
+      <div class="section-heading reveal"><div><p class="eyebrow">STORITVE</p><h2 id="services-title">Za vaš naslednji<br><em>»to sem jaz«.</em></h2></div><p>Navdih za novo poglavje vašega videza.<br>Ponudbo in podrobnosti preverite po telefonu.</p></div>
+      <div class="service-grid">
+        <article class="service-card reveal"><span class="service-number">01</span><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><circle cx="13" cy="34" r="6"/><circle cx="35" cy="34" r="6"/><path d="m17 29 19-23M31 29 12 6M24 21l-3 4"/></svg><h3>Striženje</h3><p>Oblika, ki poudari vaš značaj. Od nežne osvežitve konic do nove silhuete.</p><span class="service-footer">NOVA OBLIKA, NOV OBČUTEK <span aria-hidden="true">↗</span></span></article>
+        <article class="service-card reveal"><span class="service-number">02</span><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="m28 5 8 4-8 17-8-4zM20 22l-7 5-5 14c10 2 17-4 20-15M11 32l11 5"/></svg><h3>Barvanje</h3><p>Subtilni odtenki ali drzna sprememba. Navdih za barvo, ki dopolni vaš videz.</p><span class="service-footer">IGRA SVETLOBE IN ODTENKOV <span aria-hidden="true">↗</span></span></article>
+        <article class="service-card reveal"><span class="service-number">03</span><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M9 38 33 8l7 6-24 30zM27 16l7 6M11 32l7 6M7 8v10M2 13h10M36 31v12M30 37h12"/></svg><h3>Oblikovanje</h3><p>Sproščeni valovi ali urejena pričeska. Pika na i za vsakdan in posebne trenutke.</p><span class="service-footer">ZADNJI DOTIK VAŠEGA STILA <span aria-hidden="true">↗</span></span></article>
+        <article class="service-card reveal"><span class="service-number">04</span><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><rect x="15" y="20" width="19" height="23" rx="4"/><path d="M20 20V7h9v13M20 11h9M7 10v8M3 14h8"/></svg><h3>Manikura</h3><p>Navdih za urejene roke. Razpoložljivost te storitve je treba potrditi pri salonu.</p><span class="confirmation">POTREBNA POTRDITEV</span></article>
+      </div><p class="services-note">Prikaz storitev je demonstracijski. Za dejansko ponudbo in cene pokličite salon.</p>
+    </section>
+    <section class="gallery section-wrap" id="galerija" aria-labelledby="gallery-title">
+      <div class="section-heading reveal"><div><p class="eyebrow">GALERIJA NAVDIHA</p><h2 id="gallery-title">Različni videzi.<br><em>Ista samozavest.</em></h2></div><p>Majhna zbirka idej za vašo naslednjo spremembo.<br>Ilustrativne fotografije, ne delo ali prostori salona.</p></div>
+      <div class="gallery-grid"><figure class="reveal"><img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=85" loading="lazy" alt="Ilustrativni portret z dolgimi rjavimi lasmi" width="800" height="1050"><figcaption><span>Naravna lahkotnost</span><span>01</span></figcaption></figure><figure class="reveal"><img src="assets/priceska-valovi.jpg" loading="lazy" alt="Ilustrativni portret z urejenimi, voluminoznimi kodri" width="1000" height="1000"><figcaption><span>Urejeni kodri</span><span>02</span></figcaption></figure><figure class="reveal"><img src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?auto=format&fit=crop&w=800&q=85" loading="lazy" alt="Ilustrativni portret s svetlimi lasmi" width="800" height="1050"><figcaption><span>Svetli poudarki</span><span>03</span></figcaption></figure></div>
+      <p class="gallery-note">Fotografije: Unsplash. Vse fotografije so ilustrativne in ne prikazujejo salona Joca ali njegovih storitev.</p>
+    </section>
+    <section class="contact" id="kontakt" aria-labelledby="contact-title"><div class="contact-inner section-wrap"><div class="contact-copy reveal"><p class="eyebrow">VAŠ NASLEDNJI KORAK</p><h2 id="contact-title">Čas za nekaj<br><em>svežega?</em></h2><p>Za naročanje, aktualno ponudbo in termine<br>se obrnite neposredno na salon.</p><a class="phone" href="tel:+38627712030">+386 2 771 20 30 <span aria-hidden="true">↗</span></a><div class="address"><span>OBIŠČITE NAS</span><address>Frizerski studio Joca<br>Osojnikova cesta 22<br>2250 Ptuj</address></div><a class="underlined" href="https://www.google.com/maps/search/?api=1&query=Osojnikova+cesta+22%2C+2250+Ptuj" target="_blank" rel="noopener noreferrer">Odpri pot v Google Zemljevidih <span aria-hidden="true">↗</span><span class="sr-only"> (v novem zavihku)</span></a></div><div class="map-wrap reveal"><iframe title="Google Zemljevid: Osojnikova cesta 22, 2250 Ptuj" src="https://www.google.com/maps?q=Osojnikova%20cesta%2022%2C%202250%20Ptuj&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><span>PTUJ, SLOVENIJA <span aria-hidden="true">⌖</span></span></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-top"><a class="brand" href="#domov">joca<span>FRIZERSKI STUDIO · PTUJ</span></a><p>Vaš stil. Vaš trenutek.</p><a href="#domov" class="back-top">Nazaj na vrh ↑</a></div><div class="footer-bottom"><p>Neuradna demonstracijska spletna stran. Ni povezana s podjetjem Frizerski studio Joca in ni njegova uradna spletna stran.</p><span>OBLIKOVANO ZA NAVDIH · <span id="year">2026</span></span></div></footer>
+</body>
+</html>
